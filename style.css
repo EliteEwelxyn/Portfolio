@@ -2,8 +2,8 @@
 @font-face { font-family: Delicious; font-weight: bold; src: url('Oranienbaum.ttf');}
 
 body {
-    background-color: rgb(42, 44, 46);
-    color : white;
+    background-color: rgb(206, 206, 206);
+    color : rgb(48, 48, 48);
     caret-color: transparent;
 }
 
@@ -23,11 +23,6 @@ h1{
     margin-top: 1.5%;
     margin-left: 45%;
     font-weight: bold;
-}
-
-h2{
-    font-size: 50px;
-    margin-left: 20px;
 }
 
 nav{
@@ -50,57 +45,52 @@ nav a{
     border-top: solid 1px rgba(255, 255, 255, .2);
 }
 
-.projets{
+.presentation{
     display: flex;
     flex-direction: row;
-    margin-top: 20%;
-    margin-left: 1%;
 }
 
-.Installation{
-    border-left : 350px;
-    padding-left: 180px;
-    padding-right: 180px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    border: solid 4px white;
+.titrePrincipal{
+    font: italic 1.2em "Delicious", serif;
+    color: rgb(48, 48, 48);
+    display: flex;
+    font-size: 90px;
+    margin-top: 35%;
+    margin-left: 5%;
+    font-weight: bold;
 }
 
-.BD{
-    border-left : 350px;
-    padding-left: 180px;
-    padding-right: 180px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    border: solid 4px white;
+.sousTitre{
+    font: italic 1.2em "Delicious", serif;
+    color : rgb(94, 94, 94);
+    margin-left: 5%;
+    font-size: 25px;
+
 }
 
-.Entreprise{
-    border-left : 350px;
-    padding-left: 180px;
-    padding-right: 180px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    border: solid 4px white;
+.titre{
+    margin-right: 100px;
+    padding-left: 200px;
+    margin-top: 200px;
 }
 
-.logoJava{
-    width: 200px;
-    height: auto;
+.image{
+    display: flex;
+    margin-top: 290px;
+    margin-left: 20px;
+    width : 500px; height : 500px;
+    border: solid 6px black;
+    -moz-border-radius : 250px;
+    -webkit-border-radius : 250px;
+    border-radius : 250px;
 }
 
-.logoHTML{
-    width : 200px;
-    height : auto;
-}
-
-div a:link{
-    color: white;
-    text-decoration: none;
-}
-
-div a:visited{
-    color: white;
+.fin{
+    display: flex;
+    margin-left: 43%;
+    margin-top: 5.4%;
+    font: italic 1.2em "Fira Sans", serif;
+    color : black;
 }
 
 @media screen and (max-width: 1750px) {
@@ -125,6 +115,17 @@ div a:visited{
     }
 
     .titrePrincipal{
+        font: italic 1.2em "Delicious", serif;
+        color: rgb(0, 0, 0);
+        display: flex;
+        font-size: 120px;
+        margin-top: 17%;
+        margin-left: 37%;
+        margin-bottom: 2%;
+        font-weight: bold;
+    }
+
+    .sousTitre{
         font: italic 1.2em "Delicious", serif;
         color: rgb(0, 0, 0);
         display: flex;
