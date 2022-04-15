@@ -2,7 +2,7 @@
 @font-face { font-family: Delicious; font-weight: bold; src: url('Oranienbaum.ttf');}
 
 body {
-    background-color: rgb(226, 180, 120);
+    background-color: rgb(255, 109, 109);
     color : darkslategray;
     caret-color: transparent;
 }
