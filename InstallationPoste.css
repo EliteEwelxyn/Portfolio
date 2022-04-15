@@ -1,0 +1,59 @@
+@font-face { font-family: Delicious; src: url('Oranienbaum.ttf'); } 
+@font-face { font-family: Delicious; font-weight: bold; src: url('Oranienbaum.ttf');}
+
+body {
+    background-color: rgb(105, 103, 99);
+    color : darkslategray;
+    caret-color: transparent;
+}
+
+header{
+    font: italic 1.2em "Fira Sans", serif;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    display: flex;
+    font-size: 40px;
+    margin-top: 1.5%;
+    margin-left: 45%;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+nav{
+    display : flex;
+    margin-top: 4.75%;
+    padding-top: 3.75%;
+    padding-bottom: 1.2%;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    top: 0; left: 0;
+    background-color: black;
+}
+
+nav a{
+    font: italic 1.2em "Fira Sans", serif;
+    text-decoration: none;
+    color: #CECECE;
+    font-size: 30px;
+    border-top: solid 1px rgba(255, 255, 255, .2);
+}
+
+.InstallationPoste{
+    display: flex;
+    margin-left: 420px;
+    margin-top: 17%;
+    width: 1040px;
+    height: auto;
+}
