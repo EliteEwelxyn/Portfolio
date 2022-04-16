@@ -54,7 +54,7 @@ nav a{
     display: flex;
     flex-direction: row;
     margin-top: 20%;
-    margin-left: 1%;
+    margin-left: 1.5%;
 }
 
 .Installation{
@@ -108,7 +108,7 @@ div a:visited{
         display: flex;
         font-size: 40px;
         margin-top: 1.5%;
-        margin-left: 38.8%;
+        margin-left: 44%;
         font-weight: bold;
     }
 
@@ -124,33 +124,25 @@ div a:visited{
         background-color: black;
     }
 
+    nav a{
+        font-size: 25px;
+    }
+
     .titrePrincipal{
         font: italic 1.2em "Delicious", serif;
         color: rgb(0, 0, 0);
         display: flex;
         font-size: 120px;
-        margin-top: 17%;
-        margin-left: 37%;
+        margin-top: 25%;
+        margin-left: 35%;
         margin-bottom: 2%;
         font-weight: bold;
     }
 
-    .image{
+    .projets{
         display: flex;
-        margin-left: 34%;
-        width : 500px; height : 500px;
-        border: none;
-        -moz-border-radius : 250px;
-        -webkit-border-radius : 250px;
-        border-radius : 250px;
-    }
-
-    .fin{
-        display: flex;
-        margin-left: 38%;
-        margin-top: 9%;
-        font: italic 1.2em "Fira Sans", serif;
-        color : black;
+        flex-direction: column;
+        size: 85%;
     }
   }
 
@@ -159,13 +151,13 @@ div a:visited{
         display: flex;
         font-size: 40px;
         margin-top: 1.5%;
-        margin-left: 37%;
+        margin-left: 44%;
         font-weight: bold;
     }
 
     nav{
         display : flex;
-        margin-top: 5.5%;
+        margin-top: 5%;
         padding-top: 3.75%;
         padding-bottom: 1.2%;
         width: 100%;
@@ -175,33 +167,26 @@ div a:visited{
         background-color: black;
     }
 
+    nav a{
+        font-size: 25px;
+    }
+
     .titrePrincipal{
         font: italic 1.2em "Delicious", serif;
         color: rgb(0, 0, 0);
         display: flex;
         font-size: 120px;
         margin-top: 25%;
-        margin-left: 35%;
+        margin-left: 29%;
         margin-bottom: 2%;
         font-weight: bold;
     }
 
-    .image{
+    .projets{
+        margin-top: 25%;
         display: flex;
-        margin-left: 30%;
-        width : 500px; height : 500px;
-        border: none;
-        -moz-border-radius : 250px;
-        -webkit-border-radius : 250px;
-        border-radius : 250px;
-    }
-
-    .fin{
-        display: flex;
-        margin-left: 38%;
-        margin-top: 9%;
-        font: italic 1.2em "Fira Sans", serif;
-        color : black;
+        flex-direction: column;
+        size: 85%;
     }
   }
 
@@ -210,13 +195,13 @@ div a:visited{
         display: flex;
         font-size: 40px;
         margin-top: 1.5%;
-        margin-left: 35%;
+        margin-left: 42%;
         font-weight: bold;
     }
 
     nav{
         display : flex;
-        margin-top: 6%;
+        margin-top: 7%;
         padding-top: 3.75%;
         padding-bottom: 1.2%;
         width: 100%;
@@ -226,33 +211,26 @@ div a:visited{
         background-color: black;
     }
 
+    nav a{
+        font-size: 25px;
+    }
+
     .titrePrincipal{
         font: italic 1.2em "Delicious", serif;
         color: rgb(0, 0, 0);
         display: flex;
         font-size: 120px;
         margin-top: 25%;
-        margin-left: 32%;
+        margin-left: 25%;
         margin-bottom: 2%;
         font-weight: bold;
     }
 
-    .image{
+    .projets{
+        margin-top: 25%;
         display: flex;
-        margin-left: 27%;
-        width : 500px; height : 500px;
-        border: none;
-        -moz-border-radius : 250px;
-        -webkit-border-radius : 250px;
-        border-radius : 250px;
-    }
-
-    .fin{
-        display: flex;
-        margin-left: 38%;
-        margin-top: 9%;
-        font: italic 1.2em "Fira Sans", serif;
-        color : black;
+        flex-direction: column;
+        size: 85%;
     }
   }
 
@@ -261,64 +239,13 @@ div a:visited{
         display: flex;
         font-size: 40px;
         margin-top: 1.5%;
-        margin-left: 32%;
+        margin-left: 35%;
         font-weight: bold;
     }
 
     nav{
         display : flex;
-        margin-top: 6.5%;
-        padding-top: 3.75%;
-        padding-bottom: 1.2%;
-        width: 100%;
-        position: fixed;
-        justify-content: center;
-        top: 0; left: 0;
-        background-color: black;
-    }
-
-    .titrePrincipal{
-        font: italic 1.2em "Delicious", serif;
-        color: rgb(0, 0, 0);
-        display: flex;
-        font-size: 120px;
-        margin-top: 25%;
-        margin-left: 25%;
-        margin-bottom: 2%;
-        font-weight: bold;
-    }
-
-    .image{
-        display: flex;
-        margin-left: 18%;
-        width : 500px; height : 500px;
-        border: none;
-        -moz-border-radius : 250px;
-        -webkit-border-radius : 250px;
-        border-radius : 250px;
-    }
-
-    .fin{
-        display: flex;
-        margin-left: 32%;
         margin-top: 9%;
-        font: italic 1.2em "Fira Sans", serif;
-        color : black;
-    }
-  }
-
-  @media screen and (max-width: 750px) {
-    h1{
-        display: flex;
-        font-size: 40px;
-        margin-top: 1.5%;
-        margin-left: 25%;
-        font-weight: bold;
-    }
-    
-    nav{
-        display : flex;
-        margin-top: 11%;
         padding-top: 3.75%;
         padding-bottom: 1.2%;
         width: 100%;
@@ -326,6 +253,10 @@ div a:visited{
         justify-content: center;
         top: 0; left: 0;
         background-color: black;
+    }
+
+    nav a{
+        font-size: 25px;
     }
 
     .titrePrincipal{
@@ -339,22 +270,47 @@ div a:visited{
         font-weight: bold;
     }
 
-    .image{
+    .projets{
+        margin-top: 25%;
         display: flex;
-        margin-left: 1%;
-        width : 500px; height : 500px;
-        border: none;
-        -moz-border-radius : 250px;
-        -webkit-border-radius : 250px;
-        border-radius : 250px;
+        flex-direction: column;
+        size: 85%;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    nav{
+        display : flex;
+        margin-top: 12%;
+        padding-top: 3.75%;
+        padding-bottom: 1.2%;
+        width: 100%;
+        position: fixed;
+        justify-content: center;
+        top: 0; left: 0;
+        background-color: black;
     }
 
-    .fin{
+    nav a{
+        font-size: 25px;
+    }
+
+    .titrePrincipal{
+        font: italic 1.2em "Delicious", serif;
+        color: rgb(0, 0, 0);
         display: flex;
-        margin-left: 25%;
-        margin-top: 9%;
-        font: italic 1.2em "Fira Sans", serif;
-        color : black;
+        font-size: 120px;
+        margin-top: 25%;
+        margin-left: 15%;
+        margin-bottom: 2%;
+        font-weight: bold;
+    }
+
+    .projets{
+        margin-top: 25%;
+        display: flex;
+        flex-direction: column;
+        size: 85%;
     }
   }
 
@@ -363,7 +319,7 @@ div a:visited{
         display: flex;
         font-size: 40px;
         margin-top: 1.5%;
-        margin-left: 25%;
+        margin-left: 35%;
         font-weight: bold;
     }
 
@@ -379,32 +335,25 @@ div a:visited{
         background-color: black;
     }
 
+    nav a{
+        font-size: 25px;
+    }
+
     .titrePrincipal{
         font: italic 1.2em "Delicious", serif;
         color: rgb(0, 0, 0);
         display: flex;
-        font-size: 120px;
+        font-size: 80px;
         margin-top: 25%;
         margin-left: 15%;
         margin-bottom: 2%;
         font-weight: bold;
     }
 
-    .image{
+    .projets{
+        margin-top: 25%;
         display: flex;
-        margin-left: 1%;
-        width : 500px; height : 500px;
-        border: none;
-        -moz-border-radius : 250px;
-        -webkit-border-radius : 250px;
-        border-radius : 250px;
-    }
-
-    .fin{
-        display: flex;
-        margin-left: 25%;
-        margin-top: 9%;
-        font: italic 1.2em "Fira Sans", serif;
-        color : black;
+        flex-direction: column;
+        size: 85%;
     }
   }
